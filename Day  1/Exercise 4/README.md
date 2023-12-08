@@ -1,4 +1,3 @@
 # Exercises
-https://user-images.githubusercontent.com/70604577/160038335-3f2aa74a-fd9e-484d-94b6-df88f66fc74d.mp4
-
-https://user-images.githubusercontent.com/70604577/160038339-d2ba5ea8-9b23-4a60-977f-82cf3cbf6bca.mp4
+![exercises2-1](https://user-images.githubusercontent.com/70604577/160036745-268ed519-90ae-4eb4-aa41-ad4785ee6547.png)
+![exercises2-2](https://user-images.githubusercontent.com/70604577/160036755-a0f635bf-9d61-4265-a3be-91f180959907.png)

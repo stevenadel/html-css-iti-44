@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            border: none;
+            cursor: pointer;
+        }
+
+        .linkedin {
+            padding: 8px 20px;
+            font-size: 15px;
+            font-weight: bolder;
+            border-radius: 25px;
+        }
+        
+        .btn-primary {
+            color: white;
+            background-color: rgb(10, 102, 194);
+
+            &:hover {
+                background-color: #003873;
+            }
+        }
+        
+        .btn-secondary {
+            color: rgb(10, 102, 194);
+            background-color: white;
+            border: 1px solid rgb(10, 102, 194);
+        
+            &:hover {
+                border-width: 2px;
+                background-color: #ddecfc;
+            }
+        }
+
+        div {
+            display: flex;
+            gap: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="linkedin btn-primary">Apply on company website</button>
+        <button class="linkedin btn-secondary">Save</button>
+    </div>
+</body>
+</html>
