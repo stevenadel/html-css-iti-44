@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & label {
+                color: rgb(107, 107, 107);
+            }
+
+            & input[type="email"] {
+                height: 30px;
+                width: 300px;
+                border-radius: 3px;
+                padding: 0 20px;
+            }
+
+            & p {
+                color: rgb(107, 107, 107);
+            }
+
+            & button {
+                height: 50px;
+                border-radius: 30px;
+                border-style: none;
+                font-size: large;
+                color: white;
+                background-color: rgb(0, 110, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="email">Email</label>
+        <input type="email" id="email"/>
+        <p>By clicking Agree & Join, you agree to the privacy policy.</p>
+        <button>Agree & Join</button>
+    </form>
+</body>
+</html>

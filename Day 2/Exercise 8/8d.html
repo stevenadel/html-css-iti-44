@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        form {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & input {
+                height: 40px;
+                width: 39%;
+                border-color: rgb(175, 175, 175);
+                border-radius: 5px;
+                padding: 0 5px;
+            }
+
+            & #email {
+                width: 83%;
+            }
+
+            & button {
+                height: 50px;
+                width: 86%;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                background-color: rgb(24, 91, 167);
+                font-size: large;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="name-container">
+            <input type="text" id="first-name" placeholder="First Name"/>
+            <input type="text" id="last-name" placeholder="Last Name" />
+        </div>
+        <input type="email" id="email" placeholder="Email" />
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>

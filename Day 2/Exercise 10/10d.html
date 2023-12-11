@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(3, auto);
+        }
+
+        .profile-card {
+            width: fit-content;
+            box-shadow: 0 0 2px 2px #d7d6d6;
+            margin: 0 5px;
+        }
+
+        img {
+            width: 200px;
+            object-fit: cover;
+        }
+
+        .details {
+            padding: 10px;
+            padding-top: 0;
+        }
+
+        p {
+            margin-top: -15px;
+            color: gray;
+        }
+
+        button {
+            color: white;
+            background-color: #3874e9;
+            border: none;
+            border-radius: 3px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="profile-card">
+            <img src="./cat.jpg" />
+            <div class="details">
+                <h3>Oliver</h3>
+                <p>2 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="profile-card">
+            <img src="./cat2.jpg" />
+            <div class="details">
+                <h3>Mimi</h3>
+                <p>3 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+        <div class="profile-card">
+            <img src="./dog.jpg" />
+            <div class="details">
+                <h3>Rex</h3>
+                <p>4 mutual friends</p>
+                <button>Add Friend</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
