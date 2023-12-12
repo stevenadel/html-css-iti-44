@@ -1,5 +1,4 @@
 # Exercises
+![Exercise 16](https://user-images.githubusercontent.com/70604577/160039866-ee41bdb7-8b71-4adc-b76b-3bb07fdd916e.png)
 
-![exercises17-1]
-
-https://user-images.githubusercontent.com/70604577/160040463-4bbba430-445d-4dc9-9b86-c4984718380e.mp4
+https://user-images.githubusercontent.com/70604577/160040128-095c8374-1f55-4afa-a99b-55a15143aad8.mp4

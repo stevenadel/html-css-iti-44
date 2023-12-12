@@ -1,4 +1,5 @@
+To help you, I broke down the designs for you please check it.
 # Exercises
-![exercises14-1](https://user-images.githubusercontent.com/70604577/160039662-c7d1f8de-29f6-447a-a476-449931665d9d.png)
-![exercises14-2](https://user-images.githubusercontent.com/70604577/160039664-ae856eb1-fc15-4229-9a9f-f7ea3fa09c93.png)
-![exercises14-3](https://user-images.githubusercontent.com/70604577/160039672-9b4235c6-9cb8-44fc-bc31-a21649af8ff5.png)
+![exercises13-1](https://user-images.githubusercontent.com/70604577/160039515-8d5c9d4b-b738-4642-af39-24e272d22240.png)
+![exercises13-2](https://user-images.githubusercontent.com/70604577/160039523-bdf4b0fb-56a3-468e-a0d9-48e204ffcc89.png)
+![exercises13-3](https://user-images.githubusercontent.com/70604577/160039532-00c02c22-3de4-4670-804c-acc651c1348d.png)

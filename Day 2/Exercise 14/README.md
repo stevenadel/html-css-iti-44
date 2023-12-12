@@ -1,4 +1,4 @@
 # Exercises
-![exercises15-1](https://user-images.githubusercontent.com/70604577/160039784-d4f262bf-bb99-435d-b2f2-19e601077199.png)
-![exercises15-2](https://user-images.githubusercontent.com/70604577/160039786-705b44e1-6173-4d02-848a-933a33c4d615.png)
-![exercises15-3](https://user-images.githubusercontent.com/70604577/160039790-122e1a1e-b79a-473e-93ce-42249693f5ae.png)
+![exercises14-1](https://user-images.githubusercontent.com/70604577/160039662-c7d1f8de-29f6-447a-a476-449931665d9d.png)
+![exercises14-2](https://user-images.githubusercontent.com/70604577/160039664-ae856eb1-fc15-4229-9a9f-f7ea3fa09c93.png)
+![exercises14-3](https://user-images.githubusercontent.com/70604577/160039672-9b4235c6-9cb8-44fc-bc31-a21649af8ff5.png)
