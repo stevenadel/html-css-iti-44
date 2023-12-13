@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 300px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding-left: 5px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            width: 95%;
+
+            & > .profile-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+
+                & > img {
+                    height: 45px;
+                    width: 45px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }   
+
+                & > .profile {
+                    & > span:first-child {
+                        font-weight: bold;
+                    }
+
+                    & > span:not(:first-child) {
+                        color: rgb(126, 126, 126);
+                    }
+
+                    & > span {
+                        display: block;
+                    }
+
+                    & > span:last-child {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            & > .count-btn {
+                height: 30px;
+                color: white;
+                background-color: rgb(0, 153, 255);
+                padding: 0 10px;
+                border: none;
+                border-radius: 4px;
+                font-size: 14px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="profile-wrapper">
+                <img src="./cat.jpg" />
+                <div class="profile">
+                    <span>oliver</span>
+                    <span>the cat</span>
+                    <span>Popular</span>
+                </div>
+            </div>
+            <button class="count-btn">Follow</button>
+        </div>
+        <div class="item">
+            <div class="profile-wrapper">
+                <img src="./cat2.jpg" />
+                <div class="profile">
+                    <span>Mimi</span>
+                    <span>Sleep Cat</span>
+                    <span>Popular</span>
+                </div>
+            </div> 
+            <button class="count-btn">Follow</button>
+        </div>
+        <div class="item">
+            <div class="profile-wrapper">
+                <img src="./dog.jpg" />
+                <div class="profile">
+                    <span>Rex</span>
+                    <span>Happy Bulldog</span>
+                    <span>Popular</span>
+                </div>
+            </div>
+            <button class="count-btn">Follow</button>
+        </div>
+    </div>
+</body>
+</html>

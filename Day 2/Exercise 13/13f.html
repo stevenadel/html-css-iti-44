@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .tweet-container{
+            display: flex;
+            width: 400px;
+        }
+
+        .tweet{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tweet-user{
+            display: flex;
+            margin-bottom: 6px;
+        }
+
+        .user-name{
+            margin-right: 10px;
+            font-weight: 900;
+        }
+
+        .user-handle{
+            color: rgb(107, 107, 107);
+        }
+
+        .tweet-content{
+            display: flex;
+            flex-direction: column;
+        }
+        .tweet-text{
+            margin-bottom: 14px;
+        }
+        .link-preview-container{
+            display: flex;
+            border-radius: 10px;
+            height: 90px;
+            width: 100%;
+            overflow: hidden;
+            border: 1px solid rgb(203, 203, 203);;
+        }
+        .link-image{
+            width: 40%;
+            background-color: rgb(203, 203, 203);
+        }
+
+        .link-preview-text-container{
+            display: flex;
+            flex-direction: column;
+            padding: 0px 4px 0px 12px;
+            justify-content: center;
+        }
+
+        .link{
+            margin-bottom: 8px;
+            color: rgb(107, 107, 107);
+        }
+    </style>
+</head>
+<body>
+    <div class="tweet-container">
+        <img src="./cat.jpg" alt="cat" />
+        <div class="tweet">
+            <div class="tweet-user">
+                <div class="user-name">supersimple.dev</div>
+                <div class="user-handle">@SuperSimpleDev</div>
+            </div>
+            <div class="tweet-content">
+                <div class="tweet-text">What is backend web development? A complete overview. New video is up!</div>
+                <div class="link-preview-container">
+                    <div class="link-image"></div>
+                    <div class="link-preview-text-container">
+                        <div class="link"> youtube.com</div>
+                        <div class="link-text"> Backend web development - a complete overvire (2021)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

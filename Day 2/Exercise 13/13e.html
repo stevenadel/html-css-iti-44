@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 500px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            padding-left: 5px;
+            padding-bottom: 18px;
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-size: 13px;
+            margin: 8px;
+            color: rgb(128, 128, 128);
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            width: 95%;
+
+            & > .email-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+
+                & > img {
+                    height: 45px;
+                    width: 45px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }   
+
+                & > .email {
+                    & > .subject {
+                        font-size: 15px;
+                    }
+                    
+                    & > span {
+                        display: block;
+                        font-weight: bold;
+                    }
+                    
+                    & > span:last-child {
+                        color: rgb(126, 126, 126);
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            .time {
+                align-self: baseline;
+                font-size: 14px;
+                color: rgb(126, 126, 126);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="title">All inboxes</span>
+        <div class="item">
+            <div class="email-wrapper">
+                <img src="./cat.jpg" />
+                <div class="email">
+                    <span>Chewy Promotions</span>
+                    <span class="subject">Biggest sales of the year!</span>
+                    <span>Hey there! we're writing to tell you about our...</span>
+                </div>
+            </div>
+            <span class="time">4:58 pm</span>
+        </div>
+        <div class="item">
+            <div class="email-wrapper">
+                <img src="./dog.jpg" />
+                <div class="email">
+                    <span>Best Buy</span>
+                    <span class="subject">Your Best Buy eReceipt</span>
+                    <span>Thank you for shopping at Best Buy, here is...</span>
+                </div>
+            </div>
+            <span class="time">12:32 pm</span>
+        </div>
+        <div class="item">
+            <div class="email-wrapper">
+                <img src="./cat2.jpg" />
+                <div class="email">
+                    <span>Netflix</span>
+                    <span class="subject">Here's what's coming soon to Netflix</span>
+                    <span>Brand new movies and shows, old favorites...</span>
+                </div>
+            </div>
+            <span class="time">9:00 pm</span>
+        </div>
+    </div>
+</body>
+</html>

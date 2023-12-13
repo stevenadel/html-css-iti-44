@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 3000px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            height: 50px;
+            width: 90vw;
+            margin: 0 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        img {
+            object-fit: cover;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        button {
+            height: 31px;
+            width: 90px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .friend-btn {
+            color: white;
+            background-color: rgb(0, 102, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="./cat.jpg" />
+            <span>Oliver Cat</span>
+        </div>
+        <div>
+            <button class="friend-btn">Add Friend</button>
+            <button class="message-btn">Message</button>
+        </div>
+    </header>
+</body>
+</html>
